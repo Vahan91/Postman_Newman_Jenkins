@@ -4,7 +4,7 @@
   "description": "Project for sotring Postman tests",
   "directories": {
    "test": "tests"
-}
+},
   "scripts": {
     "api-tests-production": "newman run Tests/JsonPlaceHolder.com.postman_collection.json"
   },
