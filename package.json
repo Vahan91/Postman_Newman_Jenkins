@@ -1,0 +1,15 @@
+{
+  "name": "postman_newman_jenkins",
+  "version": "1.0.0",
+  "description": "Project for sotring Postman tests",
+  "directories": {
+   "test": "tests"
+}
+  "scripts": {
+    "api-tests-production": "newman run Tests/JsonPlaceHolder.com.postman_collection.json"
+  },
+  "author": "Vahan Margaryan",
+  "dependencies": {
+    "newman": "^4.6.0"
+  }
+}
